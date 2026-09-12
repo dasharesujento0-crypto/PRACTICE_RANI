@@ -6,6 +6,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
+        ClinicInfo clinic = new ClinicInfo();
+        clinic.displayClinicInfo();
+
         System.out.println("=================================");
         System.out.println("       DENTAL CLINIC SYSTEM");
         System.out.println("=================================");
